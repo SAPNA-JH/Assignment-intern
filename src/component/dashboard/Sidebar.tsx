@@ -5,7 +5,7 @@ import { account, mainMenu, other, others } from "../../utils/Constants";
 function Sidebar() {
   return (
     <div>
-      <aside className="bg-white w-64 py-4 border-r hidden lg:block">
+      <aside className="bg-gray-50 w-64 py-4 border-r hidden lg:block">
         <div className="flex  justify-around items-center border-gray-300 rounded-lg shadow-2xs">
           <div className="">
             <BsDiamondHalf className="border border-black " />

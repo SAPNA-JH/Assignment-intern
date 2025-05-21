@@ -4,7 +4,7 @@ import { FcBusinessman } from "react-icons/fc";
 
 function Navbar() {
   return (
-    <header className="rounded-t-md border px-2 py-2 ">
+    <header className="rounded-t-md  px-2 py-2 ">
         <div className=" flex justify-between items-center ">
             <div className="p-3">
                 <p className="font-bold text-xl">Jobs</p>

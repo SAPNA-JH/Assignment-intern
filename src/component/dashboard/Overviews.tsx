@@ -1,25 +1,25 @@
-import {
-  ChartContainer,
-  ChartTooltip,
-  ChartTooltipContent,
-  type ChartConfig,
-} from "@/components/ui/chart";
+// import {
+//   ChartContainer,
+//   ChartTooltip,
+//   ChartTooltipContent,
+//   type ChartConfig,
+// } from "@/components/ui/chart";
 import { InfoIcon, MoveRight } from "lucide-react";
-import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
+// import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
 
-const chartData = [
-  { month: "January", desktop: 186 },
-  { month: "February", desktop: 305 },
+// const chartData = [
+//   { month: "January", desktop: 186 },
+//   { month: "February", desktop: 305 },
  
-]
+// ]
 
 
-const chartConfig = {
-  desktop: {
-    label: "Desktop",
-    color: "red",
-  },
-} satisfies ChartConfig
+// const chartConfig = {
+//   desktop: {
+//     label: "Desktop",
+//     color: "red",
+//   },
+// } satisfies ChartConfig
 
 function Overviews() {
   return (
@@ -29,7 +29,7 @@ function Overviews() {
          
     
           <div className="flex justify-between">
-            <div className=" flex">
+            <div>
                <div className=" flex flex-col justify-evenly gap-3 ">
     
             <div className="flex">  <p className=" flex gap-1 text-gray-400 font-semibold">
@@ -44,29 +44,8 @@ function Overviews() {
             </div>
           </div>
             </div>
-    
             
           </div>
-
-          <div className=" w-max h-40">
-        <ChartContainer className=" h-40 w-2/5 mx-auto" config={chartConfig}>
-          <BarChart accessibilityLayer data={chartData}>
-            <CartesianGrid vertical={false} />
-            <XAxis
-              dataKey="month"
-              tickLine={false}
-              tickMargin={10}
-              axisLine={false}
-              tickFormatter={(value) => value.slice(0, 3)}
-            />
-            <ChartTooltip
-              cursor={false}
-              content={<ChartTooltipContent hideLabel />}
-            />
-            <Bar dataKey="desktop" fill="var(--color-desktop)" radius={8} />
-          </BarChart>
-        </ChartContainer>
-      </div>
           <div>
              <div className="flex justify-center-safe gap-2 items-center border-t-2 border-gray-300">
             <p className="items-center font-semibold">
@@ -88,4 +67,4 @@ export default Overviews
 
 
 
-  
+      // <div></div>

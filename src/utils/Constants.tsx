@@ -90,3 +90,63 @@ export const mainMenu =[
             
         },
     ]
+
+
+    export const jobCards = [
+    {
+        taskLabel: "Tasks 0/2",
+        location: "New York Drive, CA, USA",
+        userName: "Briar House",
+        avatarUrl: "https://github.com/shadcn.png",
+        status: "New",
+        time: "Just now"
+    },
+    {
+        taskLabel: "Report Complete · Draft proposal",
+        location: "London Road, Sheffield, UK",
+        userName: "Aileen Foley",
+        avatarUrl: "https://github.com/shadcn.png",
+        status: "5 days",
+        time: "Updated 6 days ago"
+    },
+    {
+        taskLabel: "Report incomplete",
+        location: "California 1, Malibu, CA, USA",
+        userName: "Travis Rosario",
+        avatarUrl: "https://github.com/shadcn.png",
+        status: "5 days",
+        time: "Updated 8 days ago"
+    },
+    {
+        taskLabel: "Report Complete · Draft proposal",
+        location: "Las Vegas Monorail, Nevada, USA",
+        userName: "Finnley Todd",
+        avatarUrl: "https://github.com/shadcn.png",
+        status: "6 days",
+        time: "Updated 7 days ago"
+    },
+    {
+        taskLabel: "Tasks 0/2",
+        location: "Tothill Street, London, UK",
+        userName: "Joy Horton",
+        avatarUrl: "https://github.com/shadcn.png",
+        status: "7 days",
+        time: "Updated 8 days ago"
+    },
+    {
+        taskLabel: "Report canceled",
+        location: "New York Drive, CA, USA",
+        userName: "Eve Neal",
+        avatarUrl: "https://github.com/shadcn.png",
+        status: "5 days",
+        time: "Updated 6 days ago"
+    },
+    {
+        taskLabel: "Report Complete",
+        location: "U K Circle, Winter Park, FL, USA",
+        userName: "Paul Diaz",
+        avatarUrl: "https://github.com/shadcn.png",
+        status: "5 days",
+        time: "Updated 6 days ago"
+    }
+];
